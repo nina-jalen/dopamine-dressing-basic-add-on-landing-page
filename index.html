@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dopamine Dressing 💃</title>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&family=Yeseva+One&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap");
+
       /* header */
 
       header {
-        height: 500px;
+        height: 700px;
         padding: 20px;
         background: conic-gradient(
           at center,
@@ -27,13 +28,18 @@
       header h1 {
         font-size: 50px;
         margin: 0;
+        font-weight: 700;
+      }
+
+      header h3 {
+        line-height: 1.5em;
       }
 
       /* button */
 
       button {
         display: block;
-        margin: 70px auto;
+        margin: 50px auto;
         font-size: 40px;
         font-weight: 600;
         text-align: center;
@@ -52,19 +58,29 @@
         cursor: pointer;
       }
 
+      .note-button {
+        display: block;
+        margin: 50px auto;
+        width: 250px;
+        padding: 5px 20px;
+        background-color: white;
+        border: 5px solid black;
+        border-radius: 5px;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 0.2em;
+        line-height: 1em;
+        font-weight: 500;
+      }
+
       /* body */
 
       body {
         background-color: whitesmoke;
-
+        color: rgb(45, 45, 45);
         font-family: "Spline Sans Mono", monospace;
-        font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
-
-        /* font-family: "Yeseva One", serif;
-        font-weight: 400;
-        font-style: normal; */
       }
 
       .container {
@@ -72,6 +88,9 @@
         margin: 0 auto;
       }
 
+      .container h2 {
+        line-height: 1.5em;
+      }
       /* images */
 
       img {
@@ -85,7 +104,15 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
-        margin: 30px 0;
+        margin: 5px 0;
+      }
+
+      .grid img {
+        transition: all 200ms ease;
+      }
+
+      .grid img:hover {
+        transform: scale(3);
       }
 
       /* footer */
@@ -93,11 +120,12 @@
       footer {
         text-align: center;
         font-size: 10px;
-        margin: 0 auto;
+        margin: 50px 0 20px auto;
       }
 
       a {
         text-decoration: none;
+        font-style: italic;
       }
     </style>
   </head>
@@ -110,7 +138,8 @@
     </h3>
   </header>
   <body>
-    <button title="Click me to switch dressing colors">SOS</button>
+    <button title="Push to switch colors">PUSH</button>
+    <div class="note-button">PUSH TO ACTIVATE DOPAMINE COLOURS</div>
     <div class="container">
       <h2>Need some advice from the experts?</h2>
       <h2>Meet <i>Nic & Liv</i> ...</h2>
