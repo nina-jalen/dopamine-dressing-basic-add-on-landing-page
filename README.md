@@ -10,7 +10,7 @@ A playful fashion interface built as a SheCodes Basic Add-On final project. User
 ## ⚙️ Key Features
 - 🎨 Real-time style mixing
 - 🌈 Gradient & animation effects
-- 🪩 Dynamic UI Elements
+- 🪩 Dynamic UI elements
 
 ## 💻 Tech Used
 - HTML, CSS, JavaScript, Netlify
