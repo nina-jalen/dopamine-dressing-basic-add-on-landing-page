@@ -13,4 +13,4 @@ A playful fashion interface built as a SheCodes Basic Add-On final project. User
 - 🪩 Dynamic UI elements
 
 ## 💻 Tech Used
-- HTML, CSS, JavaScript, Netlify
+- HTML, CSS, Netlify
